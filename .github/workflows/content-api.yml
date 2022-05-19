@@ -16,10 +16,10 @@ on:
 # Environment variables are defined so that they can be used throughout the job definitions.
 env:
   imageRepository: 'content-api'
-  resourceGroupName: 'Fabmedical-seki'
-  clusterName: 'fabmedical-seki'
-  containerRegistryName: 'fabmedicalseki'
-  containerRegistry: 'fabmedicalseki.azurecr.io'
+  resourceGroupName: 'Fabmedical-sei'
+  clusterName: 'fabmedical-sei'
+  containerRegistryName: 'fabmedicalsei'
+  containerRegistry: 'fabmedicalsei.azurecr.io'
   dockerfilePath: './content-api'
   tag: '${{ github.run_id  }}'
 
